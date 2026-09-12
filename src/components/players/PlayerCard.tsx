@@ -9,25 +9,31 @@ const PlayerCard = ({
   player,
   coin,
   setCoin,
+  selectedPlayers,
+  setSelectedPlayers,
 }: {
   player: playerType;
   coin: number;
   setCoin: Dispatch<SetStateAction<number>>;
+  selectedPlayers: playerType[];
+  setSelectedPlayers: Dispatch<SetStateAction<playerType[]>>;
 }) => {
   const [isSelected, setIsSelected] = useState(false);
   const handleSelectPlayer = () => {
     setIsSelected(true);
     const newCoinPrice = coin - player.price;
-    if(newCoinPrice >= 0){
+    if (newCoinPrice >= 0) {
       setCoin(newCoinPrice);
-      toast(`${player.playerName} is purchase`)
-    }else {
-      toast.error("Coin is not enough to purchase")
+      toast(`${player.playerName} is purchase`);
+    } else {
+      toast.error("Coin is not enough to purchase");
     }
-  }
+
+    // Selected players Logic
+    setSelectedPlayers([...selectedPlayers, player])
+  };
   return (
     <div
-      key={player.id}
       className="group overflow-hidden rounded-2xl border border-base-300 bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
     >
       {/* Player Image */}

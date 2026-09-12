@@ -16,7 +16,7 @@ const playersFetch = async(): Promise<playerType[]> => {
 
 function App() {
   const playersPromise = playersFetch();
-  const [coin, setCoin] = useState(20000);
+  const [coin, setCoin] = useState(50000);
 
   return (
     <>
