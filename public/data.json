@@ -1,7 +1,7 @@
 [
   {
     "playerName": "Shakib Al Hasan",
-    "playerImg": "https://example.com/images/shakib.jpg",
+    "playerImg": "https://media.crictracker.com/media/attachments/1696748634550_Shakib-Al-Hasan.jpeg",
     "origin": "Bangladesh",
     "playerType": "All-rounder",
     "bowlingStyle": "Slow Left-arm Orthodox",
@@ -10,7 +10,7 @@
   },
   {
     "playerName": "Mushfiqur Rahim",
-    "playerImg": "https://example.com/images/mushfiqur.jpg",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa8I93LjVZ6l3-594bmpMePXPSAHVZqYZiWHrVre6dO_BKzkaKegdJ5BxT&s=10",
     "origin": "Bangladesh",
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "N/A",
@@ -19,7 +19,7 @@
   },
   {
     "playerName": "Mustafizur Rahman",
-    "playerImg": "https://example.com/images/mustafizur.jpg",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlrxs_3IGvfqz5uc7ShtyXgbz3-SH0eFhLb77Bz-25D1UPdaHXPFRK9u8T&s=10",
     "origin": "Bangladesh",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm Fast",
@@ -28,7 +28,7 @@
   },
   {
     "playerName": "Litton Das",
-    "playerImg": "https://example.com/images/litton.jpg",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCOT7SE7yrKl5z-0KqSjejowa0sRHWc8lp6rf_RqTM0SV_TuqQ_3qwUVnE&s=10",
     "origin": "Bangladesh",
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "N/A",
@@ -37,7 +37,7 @@
   },
   {
     "playerName": "Taskin Ahmed",
-    "playerImg": "https://example.com/images/taskin.jpg",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkQNcAix5ekuvysYy7RH8rOm-D3-TbTcZd3TfVyAu4_biOyejWL6fZNc_2&s=10",
     "origin": "Bangladesh",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast",
@@ -46,7 +46,7 @@
   },
   {
     "playerName": "Najmul Hossain Shanto",
-    "playerImg": "https://example.com/images/shanto.jpg",
+    "playerImg": "https://backoffice.channel24bd.tv/media/imgAll/2025March/shanto-1742196516.jpg",
     "origin": "Bangladesh",
     "playerType": "Batsman",
     "bowlingStyle": "Slow Left-arm Orthodox",
@@ -55,7 +55,7 @@
   },
   {
     "playerName": "David Warner",
-    "playerImg": "https://example.com/images/warner.jpg",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcLWH-dHgWvJM_isizDSKPPqfz8DTbAAMPT6lo05pyjq-mNdQOOsgDZdg&s=10",
     "origin": "Australia",
     "playerType": "Batsman",
     "bowlingStyle": "N/A",
@@ -64,7 +64,7 @@
   },
   {
     "playerName": "Chris Gayle",
-    "playerImg": "https://example.com/images/gayle.jpg",
+    "playerImg": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2021/03/gettyimages-1168000276-1-1614659443.jpg",
     "origin": "West Indies",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm Off-break",
@@ -73,7 +73,7 @@
   },
   {
     "playerName": "Andre Russell",
-    "playerImg": "https://example.com/images/russell.jpg",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpj6OuaYpddFnFfHFKjQGUq1avS7EIkgPJURJ2uLAbb-ppmvFFbooaGVRq&s=10",
     "origin": "West Indies",
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm Fast",
@@ -82,7 +82,7 @@
   },
   {
     "playerName": "Rashid Khan",
-    "playerImg": "https://example.com/images/rashid.jpg",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZMAoJUi2EKdJHBjpWqbBC9AEjOjoFMFAtnWPgsLH-jsTVf-j7rTmvI_7x&s=10",
     "origin": "Afghanistan",
     "playerType": "Bowler",
     "bowlingStyle": "Leg-break Googly",
@@ -91,7 +91,7 @@
   },
   {
     "playerName": "Mohammad Nabi",
-    "playerImg": "https://example.com/images/nabi.jpg",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbomEQGP2w3sd5x0BdsLVf4ieMNmYkxYM1QwpK8QSB2E9tplDTg-rKpsY&s=10",
     "origin": "Afghanistan",
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm Off-break",
@@ -100,7 +100,7 @@
   },
   {
     "playerName": "Faf du Plessis",
-    "playerImg": "https://example.com/images/faf.jpg",
+    "playerImg": "https://francoisduplessis.weebly.com/uploads/1/3/0/6/13063532/8636710.jpg",
     "origin": "South Africa",
     "playerType": "Batsman",
     "bowlingStyle": "N/A",
@@ -109,7 +109,7 @@
   },
   {
     "playerName": "Wanindu Hasaranga",
-    "playerImg": "https://example.com/images/hasaranga.jpg",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbrZAXcq0p69JxNNzExgme1bxqqc7W0A3YGGc0OVCG4OQ62dFm_0T_PkA&s=10",
     "origin": "Sri Lanka",
     "playerType": "All-rounder",
     "bowlingStyle": "Leg-break Googly",
@@ -118,7 +118,7 @@
   },
   {
     "playerName": "Shadab Khan",
-    "playerImg": "https://example.com/images/shadab.jpg",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJEPTJOgtoxlK7ibvuvcTNHG401f-JFBJfF7uS2yUFkXIeeZ9zpz4U4zI&s=10",
     "origin": "Pakistan",
     "playerType": "All-rounder",
     "bowlingStyle": "Leg-break Googly",
@@ -127,7 +127,7 @@
   },
   {
     "playerName": "Alex Hales",
-    "playerImg": "https://example.com/images/hales.jpg",
+    "playerImg": "https://imgresizer.tntsports.io/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.tntsports.io/2023/08/04/3756600-76421928-2560-1440.jpg",
     "origin": "England",
     "playerType": "Batsman",
     "bowlingStyle": "N/A",
@@ -136,7 +136,7 @@
   },
   {
     "playerName": "Tom Curran",
-    "playerImg": "https://example.com/images/curran.jpg",
+    "playerImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtZVKPHEWWjTWwlsJHsAWY_RcQGL5MDsS-iHnr3JmOpwrbRop4BeBVICI&s=10",
     "origin": "England",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm Fast-medium",
