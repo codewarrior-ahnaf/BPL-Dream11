@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useState, type Dispatch, type SetStateAction } from "react";
 import { FaUser } from "react-icons/fa";
 import { BsFillFlagFill } from "react-icons/bs";
 import { MdSportsCricket } from "react-icons/md";
 import type { playerType } from "../../types/playerType";
+import { toast } from "react-toastify";
 
-const PlayerCard = ({ player }: { player: playerType }) => {
+const PlayerCard = ({
+  player,
+  coin,
+  setCoin,
+}: {
+  player: playerType;
+  coin: number;
+  setCoin: Dispatch<SetStateAction<number>>;
+}) => {
+  const [isSelected, setIsSelected] = useState(false);
+  const handleSelectPlayer = () => {
+    setIsSelected(true);
+    const newCoinPrice = coin - player.price;
+    if(newCoinPrice >= 0){
+      setCoin(newCoinPrice);
+      toast(`${player.playerName} is purchase`)
+    }else {
+      toast.error("Coin is not enough to purchase")
+    }
+  }
   return (
     <div
       key={player.id}
@@ -75,8 +95,14 @@ const PlayerCard = ({ player }: { player: playerType }) => {
             <h2 className="text-xl font-bold text-primary">${player.price}</h2>
           </div>
 
-          <button className="btn btn-primary rounded-xl px-5 transition-all hover:scale-105">
-            Choose Player
+          <button
+            onClick={() => handleSelectPlayer()}
+            className={`btn btn-primary rounded-xl px-5 transition-all hover:scale-105`}
+            // disabled={isSelected === true ? true : false}
+            // disabled={isSelected ? true : false}
+            disabled={isSelected}
+          >
+            {isSelected === true ? "Selected" : "Choose Player"}
           </button>
         </div>
       </div>

@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Nav from "./components/Nav";
 import Players from "./components/players/players";
 import type { playerType } from "./types/playerType";
+import { useState } from "react";
 
 
 
@@ -15,13 +16,14 @@ const playersFetch = async(): Promise<playerType[]> => {
 
 function App() {
   const playersPromise = playersFetch();
+  const [coin, setCoin] = useState(20000);
 
   return (
     <>
-      <Nav />
+      <Nav coin={coin} />
       <Banner />
       <Suspense fallback={<h5>Loading.......</h5>}>
-        <Players playersPromise={playersPromise} />
+        <Players playersPromise={playersPromise} coin={coin} setCoin={setCoin} />
       </Suspense>
     </>
   )

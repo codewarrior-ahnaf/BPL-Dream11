@@ -1,13 +1,15 @@
-import React, { use, useState } from 'react';
+import React, { use, useState, type Dispatch, type SetStateAction } from 'react';
 import type { playerType } from '../../types/playerType';
 import AvailablePlayers from './AvailablePlayers';
 import SelectedPlayers from './SelectedPlayers';
 
 interface PlayersProps {
-    playersPromise: Promise<playerType[]>
+    playersPromise: Promise<playerType[]>;
+    coin: number;
+    setCoin: Dispatch<SetStateAction<number>>;
 }
 
-const players = ({ playersPromise }: PlayersProps) => {
+const players = ({ playersPromise, coin, setCoin }: PlayersProps) => {
     const players = use(playersPromise);
 
     const [buttonType, setButtonType] = useState("available")
@@ -37,7 +39,7 @@ const players = ({ playersPromise }: PlayersProps) => {
           </div>
         </div>
 
-        {buttonType === "available" ? (<AvailablePlayers players={players} />) : (<SelectedPlayers></SelectedPlayers>)}
+        {buttonType === "available" ? (<AvailablePlayers players={players} coin={coin} setCoin={setCoin} />) : (<SelectedPlayers></SelectedPlayers>)}
       </div>
     );
 };
